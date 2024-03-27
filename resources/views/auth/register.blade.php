@@ -18,6 +18,25 @@
                 <x-label for="email" value="{{ __('Email') }}" />
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
             </div>
+            <div class="mt-4">
+                <x-label for="phone_number" value="{{ __('Phone Number') }}" />
+                <x-input id="phone_number" class="block mt-1 w-full" type="text" name="phone_number" :value="old('phone_number')" required />
+            </div>
+
+            <div class="mt-4">
+                <x-label for="national_id_number" value="{{ __('National ID Number') }}" />
+                <x-input id="national_id_number" class="block mt-1 w-full" type="text" name="national_id_number" :value="old('national_id_number')" required />
+            </div>
+
+            <div class="mt-4">
+                <x-label for="al_batch" value="{{ __('AL Batch') }}" />
+                <x-input id="al_batch" class="block mt-1 w-full" type="text" name="al_batch" :value="old('al_batch')" required />
+            </div>
+
+            <div class="mt-4">
+                <x-label for="address" value="{{ __('Address') }}" />
+                <x-input id="address" class="block mt-1 w-full" type="text" name="address" :value="old('address')" required />
+            </div>
 
             <div class="mt-4">
                 <x-label for="password" value="{{ __('Password') }}" />
