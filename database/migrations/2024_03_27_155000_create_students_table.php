@@ -17,6 +17,10 @@ return new class extends Migration
             $table->string('national_id_number')->nullable();
             $table->string('al_batch')->nullable();
             $table->string('phone_number')->nullable();
+            $table->string('updated_at');
+            $table->string('created_at');
+
+
 
         });
     }
